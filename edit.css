@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(248, 241, 241);
+  }
+  h1{
+    font-family:FreeMono, monospace ;
+    font-weight: bold;
+    color:white;
+    font-size: 45px;
+    text-shadow:2px 2px 4px #000;
+    margin-left: 200px;
+  }
+  a{
+    float: left;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+  }
+  @media screen and (max-width: 500px) {
+    a,h1 {
+        margin-left: 9px;
+      float: none;
+      display: block;
+    }
+  }
+  .navbar a{
+    float: right;
+    text-align: center;
+    width:10%;
+    padding:12px 0;
+    transition:all 0.3 ease;
+    font-size: 28px;
+    margin-top: 5px;
+  }
+  .navbar{
+    background-color:rgb(219, 36, 97);
+    border:white ;
+    height:100 px;
+    -webkit-box-shadow: 0 20px 20px rgba(195, 76, 116, 0.4);
+    -moz-box-shadow:    0 20px 20px rgba(195, 76, 116, 0.4);
+    box-shadow:         0 20px 20px rgba(195, 76, 116, 0.4);
+    z-index:999;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar {
+      float: none;
+      display: block;
+    }
+  }
+#x{
+    background-color: white;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+ .tabs {
+  float: left;
+  width: 30%;
+  height:auto;
+  border: 1px solid #ccc;
+} 
+.tabs button{
+    display: block;
+    background-color:white;
+    padding: 30px 16px;
+    width:100%;
+    border:none;
+    text-align: left;
+    cursor:pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.tabs button:hover{
+  background-color: rgb(248, 247, 247);
+}
+.active{
+  font-weight: bold;
+  display: block;
+  background-color:white;
+  padding: 30px 16px;
+  width:100%;
+  border:none;
+  text-align: left;
+  cursor:pointer;
+  font-size: 17px;
+  transition: 0.3s;
+}
+}
+.tabcontent{
+  
+  padding: 100px 100px;
+  width: 70%;
+  height: auto;
+}  

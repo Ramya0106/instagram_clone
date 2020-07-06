@@ -1,0 +1,38 @@
+ <html>
+    <head>
+        <title>Dailygram</title>
+        <link rel="stylesheet" href="instagram.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <!-- Tabs Titles -->
+
+                <!-- Icon -->
+                <div class="fadeIn first">
+                    <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
+                    <!-- <h2>Dailygram</h2> -->
+                    <img class='navbar-brand mt-n1 ' src="logo.png" alt="">
+
+                </div>
+
+                <!-- Login Form -->
+                <form>
+                    <input type="text" id="u" class="fadeIn second" name="login" placeholder="login">
+                    <input type="password" id="p" class="fadeIn third" name="login" placeholder="password">
+                    <input type="button" class="fadeIn fourth" onclick="phpcall()" value="Log In">
+                </form>
+
+                <!-- Remind Passowrd -->
+                <div id="formFooter">
+                    <a class="underlineHover" href="forgotPS.html">Forgot Password?</a>
+                    <a class="underlineHover" href="createaccount.html">Create Account</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="instalogin.js"></script>
+</html>

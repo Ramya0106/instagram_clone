@@ -1,0 +1,37 @@
+html{
+    font-size: x-large;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    position: absolute;
+    height: 50%;
+    width:100%;
+}
+label{
+    margin-left: 10px;
+}
+input[type=password],input[type=text]{
+    width:100%;
+    padding: 12px 20px;
+    margin: 10px 10px;
+    background-color: #f1f1f1;
+    border: none;
+}
+button{
+    background-color: rgba(14, 223, 49, 0.89);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    float: right;
+    font-size: 100%;
+}
+@media screen and (max-width: 300px){
+    .submitbtn{
+      width: 100%;
+    }
+} 

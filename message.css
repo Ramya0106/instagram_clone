@@ -1,0 +1,23 @@
+a{
+    float: left;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    a {
+      float: none;
+      display: block;
+    }
+  }
+  .navbar a{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding:12px 0;
+    transition:all 0.3 ease;
+    font-size: 36px;
+}
+body{
+    background-color: black;
+}

@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <title>Edit Profile page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="edit.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-band">Dailygram</h1>
+            </div>
+            <div class="container-fluid">
+           		<a href="instagram1.php"><i class="fa fa-home"></i></a> 
+            	<a href="search.html"><i class="fa fa-search"></i></a>
+           		<a href="message.html"><i class="fa fa-envelope"></i></a>     
+            	<a href="profile.php"><i class="fa fa-fw fa-user"></i></a>  
+        	</div>
+        </div> 
+  </nav>
+    <div class="container" id="x">
+      <div class="tabs">
+          <button class="tablink active" onclick="openEvent(event,'Edit Profile')" id="defaultOpen">Edit Profile</button>
+          <button class="tablink" onclick="openEvent(event,'Change Password')">Change Password</button>
+          <button class="tablink" onclick="openEvent(event,'Privacy')">Privacy And Security</button>
+          <button class="tablink" onclick="openEvent(event,'Calculator')">Calculator</button>
+      </div>
+        <div id="Edit Profile" class="tabcontent">
+          <p>ramya</p>
+        </div>
+        <div id="Change Password" class="tabcontent">
+         <p>preeti</p>
+        </div>
+        <div id="Privacy" class="tabcontent">
+          <p>shetty</p>
+        </div>
+        <div id="Calculator" class="tabcontent">
+          <a href="calcy.html"></a>
+          <p>ramyapreeti</p>
+        </div>
+    </div>
+</body>
+<script src="edit.js"></script> 
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.form-control{
+    background-color: rgb(44, 44, 44);
+    padding:30px;
+    font-size: 20px;
+    border:1px solid black;
+    color: white;
+}
+.glyphicon{
+    top:44px; 
+    color:white;
+    position: relative;
+    font-size:25px;
+}
+.btn {
+    top:44px;
+    float: right;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(44, 44, 44);
+    border: rgb(44, 44, 44);
+}
+p{
+    color:white;
+    font-size:20px;    
+}
+a{
+    float: left;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    a {
+      float: none;
+      display: block;
+    }
+  }
+  .navbar a{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding:12px 0;
+    transition:all 0.3 ease;
+    font-size: 36px;
+}
